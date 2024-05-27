@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLocation } from '@fortawesome/free-solid-svg-icons';
-import SocialMedia from './Socialmedia';
+import SocialMedia from '../extras/Socialmedia';
 import ContactForm from './ContactForm';
 function Contact(){
     return(

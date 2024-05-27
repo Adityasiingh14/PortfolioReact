@@ -4,7 +4,7 @@ function CustomComponent({ icon, title }) {
   return (
     <div>
       <FontAwesomeIcon icon={icon} />
-      <h1>{title}</h1>
+      <h2>{title}</h2>
     </div>
   );
 }

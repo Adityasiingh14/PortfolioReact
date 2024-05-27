@@ -1,5 +1,5 @@
 import { faCode, faCoffee,faMicrochip,faChartBar,faTerminal,faRobot,faSpider, faSearch} from '@fortawesome/free-solid-svg-icons';
-import CustomComponent from './CustomFontAwesomeInterestComp';
+import CustomComponent from '../extras/CustomFontAwesomeInterestComp';
 function Interests() {
   return (
     <div>

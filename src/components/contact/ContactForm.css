@@ -1,0 +1,15 @@
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: antiquewhite;
+    width: 50vw;
+    border-radius: 1rem;
+}
+.contact-form input{
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+}

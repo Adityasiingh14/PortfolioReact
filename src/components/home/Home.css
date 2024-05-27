@@ -1,0 +1,33 @@
+.home{
+    background-color: #02001e;
+    color: white;
+    height:92vh;
+}
+.image {
+    position: relative;
+    margin-top: 1rem;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.hi-text{
+    color: aquamarine;
+    font-size: 1.5em;
+    font-family: 'Righteous', cursive;
+    margin-top: 1rem;
+    font-weight: 700;
+
+}
+
+.name-text{
+    font-size: 3em;
+    font-family: 'Black Ops One';
+    font-weight: 400;
+}
+.developer-text{
+    font-size: 1.5em;
+    font-family: 'Righteous';
+    font-weight: 700;
+}

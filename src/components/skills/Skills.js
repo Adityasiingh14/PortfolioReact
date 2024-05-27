@@ -1,6 +1,6 @@
 import { faReact, faHtml5, faCss3, faNodeJs, faPython, faJs,faGit,faGithub } from '@fortawesome/free-brands-svg-icons';
 
-import CustomComponent from './CustomFontAwesomeInterestComp';
+import CustomComponent from '../extras/CustomFontAwesomeInterestComp';
 const skills = [
     { icon: faPython, title: "Python" },
     { icon: faJs, title: "JavaScript" },
@@ -15,10 +15,13 @@ const skills = [
 
 function Skills() {
   return (
-    <div>
+    <div className="skills-container">
       {skills.map((skill, index) => (
-        <CustomComponent key={index} icon={skill.icon} title={skill.title} />
+        <div key={index} className="skill-box">
+          <CustomComponent icon={skill.icon} title={skill.title} />
+        </div>
       ))}
+      {/* made some changes here */}
     </div>
   );
 }

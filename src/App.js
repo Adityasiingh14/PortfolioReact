@@ -1,15 +1,15 @@
 import logo from './logo.svg';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import NavBar from './NavBar';
-import Home from './Home';
-import About from './About';
-import Skills from './Skills';
-import Projects from './Projects';
-import Experience from './Experience';
-import Blogs from './Blogs';
-import Resume from './Resume';
-import Contact from './Contact';
+import NavBar from './components/navbar/NavBar';
+import Home from './components/home/Home';
+import About from './components/about/About';
+import Skills from './components/skills/Skills';
+import Projects from './components/projects/Projects';
+import Experience from './components/experience/Experience';
+import Blogs from './components/blog/Blogs';
+import Resume from './components/resume/Resume';
+import Contact from './components/contact/Contact';
 function App() {
   return (
     <Router>
