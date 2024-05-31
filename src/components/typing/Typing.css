@@ -1,0 +1,13 @@
+.typed{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:#d65974;
+    text-align: center;
+    font-family: 'sans-serif';
+    letter-spacing: 0.1rem;
+    animation: typing 2s steps(100, end), blink-caret 0.75s step-end infinite;
+}
+.typed::after{
+    content: '|';
+    animation: blink-caret 0.75s step-end infinite;
+}

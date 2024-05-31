@@ -1,18 +1,19 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin , faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import './Socialmedia.css';
 
 const socialMediaLinks = [
-    { href: "https://github.com/vaheedsk36", icon: faGithub },
+    { href: "https://github.com/Adityasiingh14", icon: faGithub },
     { href: "https://www.instagram.com/", icon: faInstagram },
-    { href: "https://www.linkedin.com/in/vaheemshaik/", icon: faLinkedin },
-    { href: "https://x.com/codersk36", icon: faTwitter }
+    { href: "https://www.linkedin.com/in/aditya-kumar-singh-a10901284", icon: faLinkedin },
+    { href: "https://x.com/Adityasiingh14", icon: faTwitter }
 ];
 function SocialMedia(){
     return(
-        <div>
-            {socialMediaLinks.map((link, index) => (
-                <a key={index} href={link.href} target="_blank" className="icon-link" rel="noreferrer">
-                <FontAwesomeIcon icon={link.icon} size="2x" color='white' />
+        <div className='social-media-links'>
+            {socialMediaLinks.map((link) => (
+                <a href={link.href} target="_blank" className="icon-link" rel="noreferrer">
+                <FontAwesomeIcon icon={link.icon}  />
                 </a>
             ))}
         </div>

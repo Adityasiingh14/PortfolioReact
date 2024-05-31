@@ -1,7 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .home{
-    background-color: #02001e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #FDFCFB, #E2D1C3);
     color: white;
-    height:92vh;
+    height: 90vh;
 }
 .image {
     position: relative;
@@ -13,21 +21,22 @@
 }
 
 .hi-text{
-    color: aquamarine;
+    color: #d65974;
     font-size: 1.5em;
-    font-family: 'Righteous', cursive;
+    font-family: 'Righteous';
     margin-top: 1rem;
     font-weight: 700;
 
 }
 
 .name-text{
-    font-size: 3em;
+    font-size: 2em;
     font-family: 'Black Ops One';
-    font-weight: 400;
+    font-weight: 800;
+    margin: 1rem;
+    color: rgba(0, 0, 0, 0.7);
 }
-.developer-text{
-    font-size: 1.5em;
-    font-family: 'Righteous';
-    font-weight: 700;
+.typing{
+    margin-bottom: 2rem;
+    color: white;
 }
