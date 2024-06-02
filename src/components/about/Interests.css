@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.interest-components{
+.interest-components {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -15,8 +15,14 @@
     gap: 0.5rem;
     border-radius: 0.5rem;
     border: 0.1rem solid black;
+    transition: transform 0.3s ease-in-out;
 }
-.interest-components.hidden{
+
+.interest-components:hover {
+    transform: scale(1.05);
+}
+
+.interest-components.hidden {
     opacity: 0;
 }
 .interests{

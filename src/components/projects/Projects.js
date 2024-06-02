@@ -2,6 +2,10 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import './Project.css';
 import portfolioImg from '../../assets/portfolio.png';
+import quizApp from '../../assets/quizapp.png';
+import calculator from '../../assets/calculator.png';
+import tictactoe from '../../assets/tictactoe.png';
+import portfoliovanilla from '../../assets/portfoliovanilla.png';
 
 const projects = [
   {
@@ -11,10 +15,28 @@ const projects = [
     githubLink: 'https://github.com/Adityasiingh14/PortfolioReact'
   },
   {
-    name: 'Project 2',
-    link: 'https://example.com/project2',
-    image: 'https://example.com/project2.jpg',
-    githubLink: 'https://github.com/username/project2'
+    name: 'QuizApp',
+    link: 'https://adityasiingh14.github.io/QuizApp/',
+    image: quizApp,
+    githubLink: ''
+  },
+  {
+    name: 'calculator',
+    link: 'https://adityasiingh14.github.io/Calculator/',
+    image: calculator,
+    githubLink: 'https://github.com/Adityasiingh14/Calculator'
+  },
+  {
+    name: 'TicTacToe',
+    link: 'https://adityasiingh14.github.io/Tic-Tac-Toe/',
+    image: tictactoe,
+    githubLink: 'https://github.com/Adityasiingh14/Tic-Tac-Toe'
+  },
+  {
+    name: 'portfoliovanilla',
+    link: 'https://adityasiingh14.github.io/Updated_Hackathon1/',
+    image: portfoliovanilla,
+    githubLink: 'https://github.com/Adityasiingh14/Updated_Hackathon1'
   }
 ];
 

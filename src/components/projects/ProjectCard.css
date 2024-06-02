@@ -2,15 +2,21 @@
     position: relative;
     width: 30rem; /* Adjust the size as needed */
     height: 15rem;
-    margin: 20px;
+    margin: 2rem;
     overflow: hidden;
-  }
-  
-  .card h2 {
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
     margin-top: 10px;
     text-align: center;
-  }
-  
+}
   .card-overlay {
     position: relative;
     width: 100%;

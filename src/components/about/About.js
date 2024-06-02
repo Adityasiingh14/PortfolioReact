@@ -10,7 +10,7 @@ function About() {
           <img src={profile} alt={"MyImage"} className="about-img"/>
         </div>
         <div className="about-text">
-          <h1>👋 Hey there</h1>
+          <h1><span>👋</span> Hey there</h1>
           <br/>
           <p>I'm Aditya, a passionate software developer. I specialize in Web Development, crafting seamless user experiences and robust backend solutions. With a knack for problem-solving, I thrive on creating elegant code that makes an impact. I'm always exploring new tools and techniques to stay at the forefront of the ever-evolving tech landscape.
             <br />

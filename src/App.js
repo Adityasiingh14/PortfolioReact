@@ -7,10 +7,12 @@ import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
+import TSParticles from './components/particles/Particles';
 function App() {
   return (
-    <Router>
-      <div className="App">
+    <div className="App">
+      <TSParticles />
+      <Router>
         <NavBar/>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -19,8 +21,8 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 

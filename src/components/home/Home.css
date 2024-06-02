@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -14,26 +18,29 @@
 .image {
     position: relative;
     margin-top: 1rem;
-    width: 15rem;
-    height: 15rem;
+    width: 12rem;
+    height: 12rem;
     object-fit: cover;
     border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px) brightness(90%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .hi-text{
     color: #d65974;
     font-size: 1.5em;
-    font-family: 'Righteous';
+    font-family: 'Oswald', sans-serif;
     margin-top: 1rem;
-    font-weight: 700;
+    font-weight: 500;
 
 }
 
 .name-text{
-    font-size: 2em;
-    font-family: 'Black Ops One';
-    font-weight: 800;
-    margin: 1rem;
+    font-size: 2.5em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    margin: 0.5rem;
     color: rgba(0, 0, 0, 0.7);
 }
 .typing{
