@@ -7,11 +7,9 @@ import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
-import TSParticles from './components/particles/Particles';
 function App() {
   return (
     <div className="App">
-      <TSParticles />
       <Router>
         <NavBar/>
         <Routes>
