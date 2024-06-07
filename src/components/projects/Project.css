@@ -19,7 +19,6 @@ body {
     align-items: start;
     justify-content: center;
     min-height: 100vh;
-    padding-left:4rem;
 }
 
 .project-page img {
@@ -31,7 +30,11 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: start;
+    align-items: center;
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .projects-text{
     position: relative;

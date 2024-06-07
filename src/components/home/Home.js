@@ -2,6 +2,7 @@ import SocialMedia from "../extras/Socialmedia";
 import './Home.css';
 import Avatar from '../../assets/aditya.png';
 import Typing from '../typing/Typing';
+import React, { useEffect } from 'react';
 
 function Home(){
     const sentences = [
